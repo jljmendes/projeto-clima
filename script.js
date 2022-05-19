@@ -44,6 +44,7 @@ function showInfo(obj) {
 
     document.querySelector('.resultado').style.display = 'block';
 }
+
 function clearInfo() {
     showWarning('');
     document.querySelector('.resultado').style.display = 'none';
